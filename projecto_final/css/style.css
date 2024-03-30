@@ -1,0 +1,275 @@
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+header
+{
+    background-color: #010; 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.container
+{
+    max-width: 1200px;
+    display: flex; 
+    justify-content: center; 
+}
+.logo img
+{
+    background-color: #B28756;
+    border-radius: 50px;  
+}
+.navbar-toggler 
+{
+    color: #B28756;
+    background-color: #B28756;
+ }
+ .navbar-nav
+ {
+    display: flex;
+ }
+ .menu
+ {
+    display: flex;
+    flex: 1;
+    margin-left: 350px;   
+ }
+ .nav-link 
+ {
+    color: #B28756;
+    font-size: 18px;
+    text-transform: uppercase;
+ }
+ .nav-link:hover
+ {
+    color: #fff;
+ } 
+ .menu button
+ {
+    background-color: #B28756;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 20px;
+ }
+ section
+ {
+    background-color: rgb(29, 35, 29);
+ }
+ .carousel-item img
+ {
+    width: 100%;
+    height: 80vh;
+   
+ }
+ h5{
+    color: #B28756;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+ }
+ .card
+ {
+    margin-top: 50px;
+    background-color:rgb(29, 35, 29);
+    color: #fff;
+ }
+ .card-title
+ {
+    color: #B28756;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    margin: 20px;
+ }
+ p
+ {
+     color: #B28756;
+     font-size: 20px;
+ }
+ .button, .btn {
+    background-color: #B28756;
+    width: 120px;
+    margin: auto;
+    border-radius: 20px;  
+ }
+ .btn:hover
+ {
+    background-color: #ccc;
+ }
+ .btn
+ {
+    color: #fff;     
+ }
+ .about
+ {
+    width: 100%; 
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 30px;
+ }
+ .about-image
+ {
+    display: flex;
+    flex: 1;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-left: 20px;   
+ }
+ .about img
+ {
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 50%;  
+    margin-left: 20px;
+ }
+ .card-container
+ {
+    display: flex; 
+    flex: 1;
+    flex-wrap: wrap;  
+ }
+ .card
+ {
+    margin-left: 10px;
+ }
+ .title
+ {
+  margin-bottom: 20px;
+  margin-left: 0px;
+  padding-top: 20px;
+ }
+ .button, a
+ {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+ }
+.brown{
+    background-color: #B28756;
+}
+.galery-container{
+    margin-top: 50px;
+}
+.galery-container img 
+{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+.contact-area
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;   
+    align-items: center; 
+}
+.contact-area-left
+{
+    align-items: center;
+    color:#B28756;
+}
+.left{
+    margin-bottom: 20px;
+}
+#tel 
+{
+    font-size: 18px;
+    margin-top:  30px;
+}
+.mail a
+{
+    color:#B28756;
+    text-decoration: none;
+}
+.mail{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-area-right{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px; 
+    margin-left: 0;
+}
+form{
+   margin-left: 20px;
+   margin-top: 20px; 
+}
+input ,textarea,select{
+    background: #eee;
+    padding: 5px;
+    width: 250px;
+    margin: 5px;
+    font-size:medium;
+    outline: 0;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+}
+label{
+    display: block;
+    padding: 10px;
+    color:#B28756;
+    text-align: left;
+}
+textarea{
+    height: 100px; 
+    width: 250px;
+    resize: none;
+    font-size: 18px;
+}
+fieldset{
+    border: solid 5px #B28756;
+    border-radius: 50px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+legend{
+    color:#B28756;
+    font-size: 22px;
+    padding: 8px;
+} 
+.geral{
+    background-color: #201f1f;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+center{
+    height: 100vh;
+    background-color: #B28756;
+
+}
+.h1
+{
+  background-color: #201f1f;
+  color: #B28756;
+  margin-bottom: 0;
+  padding-top: 50px;
+  text-align: center; 
+}
+footer{
+    background-color:#010;
+    padding-top: 0px;
+    margin-bottom: 0;
+}
+.footer{
+    color: #B28756;
+    font-size: 20px;
+    text-align: center;
+}
+.form-control{
+    width: 390px;
+}

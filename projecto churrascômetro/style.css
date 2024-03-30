@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-image: url(./images/bbqdw.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover; 
+}
+.h1{
+    color:#fff
+}
+.content{
+    max-width: 300px;
+    margin: auto;
+    background-color:aliceblue ;
+    padding: 20px;
+    border-radius: 10px; 
+    
+}
+h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    display:block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
