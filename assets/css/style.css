@@ -8,10 +8,11 @@ body{
     font-size: 16px;
 }
 header{
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color:#000;
     height: 100px;  
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .content{
     max-width: 1200px;
@@ -23,7 +24,8 @@ header{
     margin-top: -10px;
 }
 .navbar{
-    padding-top: 20px;   
+    padding-top: 20px;  
+
 }
 ul li{
     list-style: none;
@@ -165,7 +167,8 @@ a figcaption{
 } 
 .content-contacts{ 
     max-width: 1200px;
-    margin: auto;   
+    margin: auto;
+    margin-top:20px ;   
 
 }
 .content-contacts-geral{
@@ -266,11 +269,13 @@ legend{
 }
 footer{
     background-color: #323030;
+    height: 100px; 
+    
    
 }
 .footer{
-    height: 100px;  
-    color: #CCC;
+   padding-top: 20px;
+   color: #CCC;
    text-align: center;
    line-height: 100px;
     
@@ -417,7 +422,6 @@ footer{
       input, textarea{
         width: 250px;
       }
-
     
    
 }
